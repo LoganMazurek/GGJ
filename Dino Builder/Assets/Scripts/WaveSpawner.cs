@@ -25,14 +25,14 @@ public class WaveSpawner : MonoBehaviour
     private float countdown = 2f;
 
     private int waveIndex = 0;
-    
+
     private void Update()
     {
-        if(countdown <= 0f)
+        if (countdown <= 0f)
         {
             StartCoroutine(SpawnWave());
             countdown = timeBetweenWaves;
-            
+
         }
         countdown -= Time.deltaTime;
         waveCountdownText.text = Mathf.Round(countdown).ToString();
@@ -49,12 +49,10 @@ public class WaveSpawner : MonoBehaviour
                 yield return new WaitForSeconds(timeBetweenEnemies);
             }
         }
-       //Debug.Log("Wave Inbound!");
-        
     }
 
     void SpawnEnemy(Transform enemyType)
     {
-        Instantiate(enemyType, spawnPoint.position,spawnPoint.rotation);
+        Instantiate(enemyType, spawnPoint.position, spawnPoint.rotation);
     }
 }
