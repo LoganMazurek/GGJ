@@ -15,6 +15,7 @@ public class WaveSpawner : MonoBehaviour
     public Transform enemyPrefab;
     //add more enemyPrefabs here to give choice of enemy type
     public Transform spawnPoint;
+    //can add more spawnpoints here
     public WaveSpec[] waves;
 
     public float timeBetweenWaves = 6f;
