@@ -1,26 +1,17 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class Enemy: MonoBehaviour
 {
-    public float maxHealth;
-    public float currentHealth;
-
-    private Player player;
-    private Transform target;
-    private int waypointIndex = 0;
     public float speed = 10.0f;
 
-    private void Awake()
-    {
-        currentHealth = maxHealth;
-    }
+    private Transform target;
+    private int waypointIndex = 0;
+
     private void Start()
     {
         target = Waypoints.points[0];
-        player = FindObjectOfType<Player>();
     }
 
     private void Update()
@@ -32,37 +23,17 @@ public class Enemy: MonoBehaviour
         {
             GetNextWaypoint();
         }
-        if(currentHealth >= maxHealth)
-        {
-            currentHealth = maxHealth;
-        }
-        if(currentHealth <= 0)
-        {
-            Die();
-            return;
-        }
     }
 
     void GetNextWaypoint()
     {
         if(waypointIndex >= Waypoints.points.Length - 1)
         {
-            player.LoseLife();
             Destroy(gameObject);
             return;
         }
         waypointIndex++;
 
         target = Waypoints.points[waypointIndex];
-    }
-    public void TakeDamage(float dmg)
-    {
-        currentHealth -= dmg;
-    }
-
-    void Die()
-    {
-        player.bones++;
-        Destroy(gameObject);
     }
 }
