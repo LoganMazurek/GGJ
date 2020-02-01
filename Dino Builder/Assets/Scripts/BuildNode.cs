@@ -5,6 +5,7 @@ public class BuildNode : MonoBehaviour
     private Renderer rend;
     public Color hoverColor;
     private Color startColor;
+    public Vector3 positionOffset;
 
     private GameObject turret;
    
@@ -13,10 +14,11 @@ public class BuildNode : MonoBehaviour
         if(turret != null)
         {
             Debug.Log("Can't build there");//TODO: display to screen
+            return;
         }
 
         GameObject turretToBuild = BuildManager.instance.GetTurretToBuild();
-        turret = (GameObject)Instantiate(turretToBuild, transform.position, transform.rotation);
+        turret = (GameObject)Instantiate(turretToBuild, transform.position + positionOffset, transform.rotation);
     }
     private void Start()
     {
