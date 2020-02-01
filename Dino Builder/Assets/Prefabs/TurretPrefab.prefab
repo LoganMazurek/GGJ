@@ -122,7 +122,7 @@ Transform:
   m_GameObject: {fileID: 1106233436923866634}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.502, y: 0.25, z: 10.255}
-  m_LocalScale: {x: 0.3617, y: 0.3617, z: 0.3617}
+  m_LocalScale: {x: 10, y: 10, z: 10}
   m_Children:
   - {fileID: 1106233436494350276}
   m_Father: {fileID: 0}
@@ -191,7 +191,7 @@ MonoBehaviour:
   bulletPrefab: {fileID: 2647976959624595557, guid: 55c63346d58c4034cbf661f6ccb99dd7,
     type: 3}
   attackSpeed: 1
-  range: 3
+  range: 20
   turnSpeed: 8
   enemyTag: Enemy
   firePoint: {fileID: 1106233436494350276}
