@@ -58,6 +58,8 @@
      <Compile Include="Assets\Scripts\Enemy Spawner.cs" />
      <Compile Include="Assets\Scripts\Enemy.cs" />
      <Compile Include="Assets\Scripts\Path End.cs" />
+     <Compile Include="Assets\Scripts\Turret.cs" />
+     <Compile Include="Assets\Scripts\WaveSpawner.cs" />
      <Compile Include="Assets\Scripts\Waypoints.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>C:/Users/Miles/Documents/GitHub/GGJ/Dino Builder/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
