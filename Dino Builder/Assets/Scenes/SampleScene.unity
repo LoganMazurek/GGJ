@@ -630,7 +630,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00ce26f7b36e2314b80e465b6630b41a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bones: 0
+  currentBones: 0
+  startBones: 10
   currentLives: 0
   maxLives: 10
   bonesText: {fileID: 858645992}
