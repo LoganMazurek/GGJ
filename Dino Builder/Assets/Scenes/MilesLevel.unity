@@ -376,6 +376,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0, b: 0, a: 0}
+  positionOffset: {x: 0, y: 0, z: 0}
 --- !u!65 &29348661
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -477,6 +478,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0, b: 0, a: 0}
+  positionOffset: {x: 0, y: 0, z: 0}
 --- !u!65 &35556207
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -779,6 +781,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0, b: 0, a: 0}
+  positionOffset: {x: 0, y: 0, z: 0}
 --- !u!65 &76407249
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -991,6 +994,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0, b: 0, a: 0}
+  positionOffset: {x: 0, y: 0, z: 0}
 --- !u!65 &113419878
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1500,6 +1504,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0, b: 0, a: 0}
+  positionOffset: {x: 0, y: 0, z: 0}
 --- !u!65 &210960697
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1532,6 +1537,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0, b: 0, a: 0}
+  positionOffset: {x: 0, y: 0, z: 0}
 --- !u!65 &211837542
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1654,6 +1660,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0, b: 0, a: 0}
+  positionOffset: {x: 0, y: 0, z: 0}
 --- !u!65 &223625164
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1824,6 +1831,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0, b: 0, a: 0}
+  positionOffset: {x: 0, y: 0, z: 0}
 --- !u!65 &246138730
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1856,6 +1864,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0, b: 0, a: 0}
+  positionOffset: {x: 0, y: 0, z: 0}
 --- !u!65 &246446840
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2074,6 +2083,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0, b: 0, a: 0}
+  positionOffset: {x: 0, y: 0, z: 0}
 --- !u!65 &275798870
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2196,6 +2206,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0, b: 0, a: 0}
+  positionOffset: {x: 0, y: 0, z: 0}
 --- !u!65 &299995521
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2318,6 +2329,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0, b: 0, a: 0}
+  positionOffset: {x: 0, y: 0, z: 0}
 --- !u!65 &306484631
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2637,6 +2649,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0, b: 0, a: 0}
+  positionOffset: {x: 0, y: 0, z: 0}
 --- !u!65 &346960951
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2939,6 +2952,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0, b: 0, a: 0}
+  positionOffset: {x: 0, y: 0, z: 0}
 --- !u!65 &411518733
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3647,51 +3661,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 555956620}
   m_CullTransparentMesh: 0
---- !u!1 &562255981
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 562255983}
-  - component: {fileID: 562255982}
-  m_Layer: 0
-  m_Name: CamreaController
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &562255982
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 562255981}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 80bf7666a23fbc34390f75981160d2b2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Speed: 1
---- !u!4 &562255983
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 562255981}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 255, y: 0, z: 255}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 829248199}
-  m_Father: {fileID: 0}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &567432642
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3987,6 +3956,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0, b: 0, a: 0}
+  positionOffset: {x: 0, y: 0, z: 0}
 --- !u!65 &605402868
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4109,6 +4079,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0, b: 0, a: 0}
+  positionOffset: {x: 0, y: 0, z: 0}
 --- !u!65 &634310223
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4779,6 +4750,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0, b: 0, a: 0}
+  positionOffset: {x: 0, y: 0, z: 0}
 --- !u!65 &744264294
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4880,6 +4852,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0, b: 0, a: 0}
+  positionOffset: {x: 0, y: 0, z: 0}
 --- !u!65 &753388396
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5002,6 +4975,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0, b: 0, a: 0}
+  positionOffset: {x: 0, y: 0, z: 0}
 --- !u!65 &781730095
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5124,6 +5098,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0, b: 0, a: 0}
+  positionOffset: {x: 0, y: 0, z: 0}
 --- !u!65 &825716654
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5154,6 +5129,7 @@ GameObject:
   - component: {fileID: 829248199}
   - component: {fileID: 829248198}
   - component: {fileID: 829248197}
+  - component: {fileID: 829248200}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -5219,13 +5195,32 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 829248196}
-  m_LocalRotation: {x: 0.5735764, y: 0, z: 0, w: 0.8191521}
-  m_LocalPosition: {x: 0, y: 400, z: -190}
+  m_LocalRotation: {x: 0.5735764, y: -0, z: -0, w: 0.8191521}
+  m_LocalPosition: {x: 255, y: 400, z: 65}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 562255983}
+  m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 70, y: 0, z: 0}
+--- !u!114 &829248200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 829248196}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0af2618f1fa6b347b6a6b006354940b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minPanSpeed: 100
+  maxPanSpeed: 1000
+  panTimeConstant: 20
+  maxZoom: 60
+  minZoom: 20
+  rotateSpeed: 5
+  zoomSpeed: 2
 --- !u!4 &850046139 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5710060843926566525, guid: 047e196b7baa60549858664e46389c7c,
@@ -5251,6 +5246,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0, b: 0, a: 0}
+  positionOffset: {x: 0, y: 0, z: 0}
 --- !u!65 &870361106
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5295,6 +5291,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0, b: 0, a: 0}
+  positionOffset: {x: 0, y: 0, z: 0}
 --- !u!65 &926707384
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5327,6 +5324,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0, b: 0, a: 0}
+  positionOffset: {x: 0, y: 0, z: 0}
 --- !u!65 &946470097
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5449,6 +5447,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0, b: 0, a: 0}
+  positionOffset: {x: 0, y: 0, z: 0}
 --- !u!65 &948234293
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5487,6 +5486,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0, b: 0, a: 0}
+  positionOffset: {x: 0, y: 0, z: 0}
 --- !u!65 &962433261
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5519,6 +5519,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0, b: 0, a: 0}
+  positionOffset: {x: 0, y: 0, z: 0}
 --- !u!65 &965594862
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5869,6 +5870,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0, b: 0, a: 0}
+  positionOffset: {x: 0, y: 0, z: 0}
 --- !u!65 &1028657278
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6114,6 +6116,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0, b: 0, a: 0}
+  positionOffset: {x: 0, y: 0, z: 0}
 --- !u!65 &1103153719
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6146,6 +6149,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0, b: 0, a: 0}
+  positionOffset: {x: 0, y: 0, z: 0}
 --- !u!65 &1178057717
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6184,6 +6188,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0, b: 0, a: 0}
+  positionOffset: {x: 0, y: 0, z: 0}
 --- !u!65 &1201112791
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6629,6 +6634,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1253230927}
   - component: {fileID: 1253230926}
+  - component: {fileID: 1253230929}
+  - component: {fileID: 1253230928}
   m_Layer: 0
   m_Name: Controller
   m_TagString: Untagged
@@ -6671,6 +6678,38 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1253230928
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1253230925}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5946871e3f6e71c429b580c449b1585c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  standardTurretPrefab: {fileID: 1106233436923866634, guid: e7e6c0fcf8f458f42b4510fb1e865cef,
+    type: 3}
+--- !u!114 &1253230929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1253230925}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00ce26f7b36e2314b80e465b6630b41a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentBones: 0
+  startBones: 0
+  currentLives: 25
+  maxLives: 25
+  bonesText: {fileID: 555956622}
+  livesText: {fileID: 23371755}
 --- !u!1001 &1315749693
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7035,6 +7074,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0, b: 0, a: 0}
+  positionOffset: {x: 0, y: 0, z: 0}
 --- !u!65 &1352717655
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7157,6 +7197,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0, b: 0, a: 0}
+  positionOffset: {x: 0, y: 0, z: 0}
 --- !u!65 &1360305533
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7189,6 +7230,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0, b: 0, a: 0}
+  positionOffset: {x: 0, y: 0, z: 0}
 --- !u!65 &1389386188
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7221,6 +7263,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0, b: 0, a: 0}
+  positionOffset: {x: 0, y: 0, z: 0}
 --- !u!65 &1405039791
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7322,6 +7365,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0, b: 0, a: 0}
+  positionOffset: {x: 0, y: 0, z: 0}
 --- !u!65 &1412545189
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7354,6 +7398,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0, b: 0, a: 0}
+  positionOffset: {x: 0, y: 0, z: 0}
 --- !u!65 &1417693513
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7386,6 +7431,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0, b: 0, a: 0}
+  positionOffset: {x: 0, y: 0, z: 0}
 --- !u!65 &1420287262
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7418,6 +7464,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0, b: 0, a: 0}
+  positionOffset: {x: 0, y: 0, z: 0}
 --- !u!65 &1424267649
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7519,6 +7566,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0, b: 0, a: 0}
+  positionOffset: {x: 0, y: 0, z: 0}
 --- !u!65 &1435500591
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7551,6 +7599,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0, b: 0, a: 0}
+  positionOffset: {x: 0, y: 0, z: 0}
 --- !u!65 &1437844408
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7583,6 +7632,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0, b: 0, a: 0}
+  positionOffset: {x: 0, y: 0, z: 0}
 --- !u!65 &1443144013
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7753,6 +7803,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0, b: 0, a: 0}
+  positionOffset: {x: 0, y: 0, z: 0}
 --- !u!65 &1457095776
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7791,6 +7842,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0, b: 0, a: 0}
+  positionOffset: {x: 0, y: 0, z: 0}
 --- !u!65 &1498118445
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7913,6 +7965,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0, b: 0, a: 0}
+  positionOffset: {x: 0, y: 0, z: 0}
 --- !u!65 &1535980574
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8014,6 +8067,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0, b: 0, a: 0}
+  positionOffset: {x: 0, y: 0, z: 0}
 --- !u!65 &1545510544
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8119,6 +8173,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0, b: 0, a: 0}
+  positionOffset: {x: 0, y: 0, z: 0}
 --- !u!65 &1570372054
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8310,6 +8365,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0, b: 0, a: 0}
+  positionOffset: {x: 0, y: 0, z: 0}
 --- !u!65 &1585781212
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8342,6 +8398,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0, b: 0, a: 0}
+  positionOffset: {x: 0, y: 0, z: 0}
 --- !u!65 &1597653607
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8629,6 +8686,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0, b: 0, a: 0}
+  positionOffset: {x: 0, y: 0, z: 0}
 --- !u!65 &1677749780
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8893,6 +8951,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0, b: 0, a: 0}
+  positionOffset: {x: 0, y: 0, z: 0}
 --- !u!65 &1726343905
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8925,6 +8984,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0, b: 0, a: 0}
+  positionOffset: {x: 0, y: 0, z: 0}
 --- !u!65 &1752319241
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9204,6 +9264,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0, b: 0, a: 0}
+  positionOffset: {x: 0, y: 0, z: 0}
 --- !u!65 &1780699746
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9395,6 +9456,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0, b: 0, a: 0}
+  positionOffset: {x: 0, y: 0, z: 0}
 --- !u!65 &1824063696
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9502,6 +9564,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0, b: 0, a: 0}
+  positionOffset: {x: 0, y: 0, z: 0}
 --- !u!65 &1833568508
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10059,6 +10122,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0, b: 0, a: 0}
+  positionOffset: {x: 0, y: 0, z: 0}
 --- !u!65 &2018325000
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10298,6 +10362,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0, b: 0, a: 0}
+  positionOffset: {x: 0, y: 0, z: 0}
 --- !u!65 &2069543587
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10495,6 +10560,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0, b: 0, a: 0}
+  positionOffset: {x: 0, y: 0, z: 0}
 --- !u!65 &2104518090
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10527,6 +10593,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0, b: 0, a: 0}
+  positionOffset: {x: 0, y: 0, z: 0}
 --- !u!65 &2143792701
 BoxCollider:
   m_ObjectHideFlags: 0
