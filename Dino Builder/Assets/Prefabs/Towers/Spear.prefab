@@ -11411,8 +11411,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 0}
   attackSpeed: 1
-  dmg: 0
-  range: 15
+  dmg: 5
+  range: 50
   turnSpeed: 8
   enemyTag: Enemy
   partToRotate: {fileID: 974285297410685362}

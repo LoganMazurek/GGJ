@@ -54,9 +54,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3122683996409856894}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2.324224, y: 9.671232, z: -8.401465}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_Children:
   - {fileID: 2077762355070259371}
   m_Father: {fileID: 0}
@@ -78,7 +78,7 @@ MonoBehaviour:
   bulletPrefab: {fileID: 231623556264614988, guid: be26f42facbcd794db320fe07b61c78b,
     type: 3}
   attackSpeed: 1
-  range: 15
+  range: 75
   turnSpeed: 8
   enemyTag: Enemy
   firePoint: {fileID: 8223907118395443774}

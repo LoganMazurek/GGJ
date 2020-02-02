@@ -3213,6 +3213,7 @@ GameObject:
   m_Component:
   - component: {fileID: 29045084109982882}
   - component: {fileID: 4721577564002107648}
+  - component: {fileID: -5120038876344106561}
   m_Layer: 0
   m_Name: Triceratops
   m_TagString: Enemy
@@ -3229,7 +3230,7 @@ Transform:
   m_GameObject: {fileID: 3908114580752973489}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children:
   - {fileID: 7574900713146056990}
   - {fileID: 6270392383356162777}
@@ -3248,11 +3249,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee334c65651fd7b4490a99b4672d19ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
-  maxHealth: 1
+  speed: 5
+  maxHealth: 75
   currentHealth: 0
-  boneWorth: 1
+  boneWorth: 75
   player: {fileID: 0}
+--- !u!95 &-5120038876344106561
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3908114580752973489}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 591342d705c259d4ba3a9798e83c78c1, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &3927565246163638529
 GameObject:
   m_ObjectHideFlags: 0
@@ -5657,7 +5677,7 @@ Transform:
   m_GameObject: {fileID: 7963175879030098667}
   m_LocalRotation: {x: -0.68001306, y: 0, z: -0, w: 0.7332}
   m_LocalPosition: {x: -0, y: 0, z: -11.898491}
-  m_LocalScale: {x: 24.999996, y: 24.999996, z: 24.999996}
+  m_LocalScale: {x: 20, y: 20, z: 20}
   m_Children: []
   m_Father: {fileID: 29045084109982882}
   m_RootOrder: 0

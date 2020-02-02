@@ -1420,7 +1420,7 @@ Transform:
   m_GameObject: {fileID: 3986426809444117307}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
+  m_LocalScale: {x: 10, y: 10, z: 10}
   m_Children:
   - {fileID: 2630293893958258205}
   - {fileID: 6226828090422511443}
@@ -1459,9 +1459,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
-  maxHealth: 1
+  maxHealth: 100
   currentHealth: 0
-  boneWorth: 1
+  boneWorth: 100
   player: {fileID: 0}
 --- !u!1 &4082277043554382027
 GameObject:
