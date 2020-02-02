@@ -6544,6 +6544,7 @@ MonoBehaviour:
   waves: []
   timeBetweenWaves: 6
   timeBetweenEnemies: 0.3
+  waveIndex: 0
 --- !u!4 &1895337047 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5710060843926566525, guid: 047e196b7baa60549858664e46389c7c,
@@ -7650,6 +7651,9 @@ MonoBehaviour:
   spearCost: 0
   catapultCost: 0
   ballistaCost: 0
+  catapultCostText: {fileID: 0}
+  spearCostText: {fileID: 0}
+  ballistaCostText: {fileID: 0}
 --- !u!114 &2080569789
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7664,8 +7668,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentBones: 0
   startBones: 5
+  maxRound: 10
   bonesText: {fileID: 0}
-  livesText: {fileID: 0}
+  roundText: {fileID: 0}
 --- !u!4 &2080569790
 Transform:
   m_ObjectHideFlags: 0

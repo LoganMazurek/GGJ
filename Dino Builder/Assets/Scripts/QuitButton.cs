@@ -17,11 +17,11 @@ public class QuitButton : MonoBehaviour
     {
         //SCENES:
         //Start Scene -0
-        //Options - 1
-        //Miles Level -2
-        //Nick Level -3
-        //Victory - 4
-        //Loss - 5
+        //Options - 
+        //Miles Level -1
+        //Nick Level -2
+        //Victory - 3
+        //Loss - 4
 
         switch (button.gameObject.name)
         {
@@ -29,10 +29,16 @@ public class QuitButton : MonoBehaviour
                 Application.Quit();
                 break;
             case "PLAY":
-                SceneManager.LoadScene(2);
+                SceneManager.LoadScene(1);
                 break;
             case "OPTIONS":
-                SceneManager.LoadScene(1);
+                //SceneManager.LoadScene(1);
+                break;
+            case "MAIN MENU":
+                SceneManager.LoadScene(0);
+                break;
+            case "NEXT ROUND":
+                WaveSpawner.instance.ButtonPressed = true;
                 break;
             default:
                 break;

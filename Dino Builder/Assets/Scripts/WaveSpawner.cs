@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 
 public class WaveSpawner : MonoBehaviour
@@ -26,12 +27,11 @@ public class WaveSpawner : MonoBehaviour
     //can add more spawnpoints here
     public WaveSpec[] waves;
     private Transform[] spawns;
+    public bool ButtonPressed = false;
 
     public float timeBetweenWaves = 6f;
     public float timeBetweenEnemies = 0.3f;
-    
-
-    private float countdown = 2f;
+    private bool spawning = false;
 
     public int waveIndex = 0;
     private void Start()
@@ -49,12 +49,15 @@ public class WaveSpawner : MonoBehaviour
     }
     private void Update()
     {
-        if(countdown <= 0f)
+        if(waveIndex >100)
+        {
+            SceneManager.LoadScene(3);
+        }
+        if(ButtonPressed && !spawning)
         {
             StartCoroutine(SpawnWave());
-            countdown = timeBetweenWaves;
+            ButtonPressed = false;
         }
-        countdown -= Time.deltaTime;
     }
 
     IEnumerator SpawnWave()
@@ -64,12 +67,16 @@ public class WaveSpawner : MonoBehaviour
         {
             for (int j = 0; j < waves[i].numEnemies; j++)
             {
-                SpawnEnemy(enemies[waves[i].enemyType], spawns[waves[i].spawnPoint]);
-                yield return new WaitForSeconds(timeBetweenEnemies);
+                spawning = true;
+                if (spawning)
+                {
+                    SpawnEnemy(enemies[waves[i].enemyType], spawns[waves[i].spawnPoint]);
+                    yield return new WaitForSeconds(timeBetweenEnemies);
+                }
             }
         }
+        spawning = false;
        //Debug.Log("Wave Inbound!");
-        
     }
 
     void SpawnEnemy(Transform enemyType, Transform spawn)
