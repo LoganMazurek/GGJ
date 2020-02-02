@@ -32,10 +32,11 @@ public class WaveSpawner : MonoBehaviour
     public float timeBetweenWaves = 6f;
     public float timeBetweenEnemies = 0.3f;
     private bool spawning = false;
-
+    public string sceneName;
     public int waveIndex = 0;
     private void Start()
     {
+        sceneName = SceneManager.GetActiveScene().name;
         enemies = new Transform[5];
         enemies[0] = enemyPrefabPtero;
         enemies[1] = enemyPrefabTRex;
@@ -49,7 +50,11 @@ public class WaveSpawner : MonoBehaviour
     }
     private void Update()
     {
-        if(waveIndex >100)
+        if(waveIndex >Player.instance.maxRound && sceneName == "MilesLevel")
+        {
+            SceneManager.LoadScene(2);
+        }
+        if(waveIndex > Player.instance.maxRound && sceneName == "NickLevel")
         {
             SceneManager.LoadScene(3);
         }

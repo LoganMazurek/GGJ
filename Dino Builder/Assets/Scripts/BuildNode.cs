@@ -24,6 +24,21 @@ public class BuildNode : MonoBehaviour
         }
 
         GameObject turretToBuild = buildManager.GetTurretToBuild();
+        switch(turretToBuild.gameObject.name)
+        {
+            case "Spear":
+                Player.instance.currentBones -= buildManager.spearCost;
+                break;
+            case "Catapult":
+                Player.instance.currentBones -= buildManager.catapultCost;
+                break;
+            case "Ballista":
+                Player.instance.currentBones -= buildManager.ballistaCost;
+                break;
+            default:
+                break;
+        }
+        
         turret = (GameObject)Instantiate(turretToBuild, transform.position + positionOffset, transform.rotation);
     }
     private void Start()

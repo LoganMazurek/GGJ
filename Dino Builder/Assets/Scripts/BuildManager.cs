@@ -20,7 +20,6 @@ public class BuildManager : MonoBehaviour
         if (Player.instance.currentBones >= spearCost)
         {
             SetTurretToBuild(spearTurretPrefab);
-            Player.instance.currentBones -= spearCost;
             Debug.Log("Spear turret purchased");
         }
     }
@@ -31,9 +30,7 @@ public class BuildManager : MonoBehaviour
         {
             Debug.Log("Ballista turret purchased");
             SetTurretToBuild(ballistaTurretPrefab);
-            Player.instance.currentBones -= ballistaCost;
         }
-            
     }
 
     public void PurchaseCatapultTurret()
@@ -42,7 +39,6 @@ public class BuildManager : MonoBehaviour
         {
             Debug.Log("Catapult turret purchased");
             SetTurretToBuild(catapultTurretPrefab);
-            Player.instance.currentBones -= catapultCost;
         }
     }
 
