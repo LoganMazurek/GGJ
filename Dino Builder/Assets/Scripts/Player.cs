@@ -2,28 +2,27 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
+    public static Player instance;
     public int currentBones;
     public int startBones;
-    public int currentLives;
-    public int maxLives;
     public Text bonesText;
     public Text livesText;
     // Start is called before the first frame update
     void Start()
     {
         currentBones = startBones;
-        currentLives = maxLives;
+        instance = this;
     }
 
     // Update is called once per frame
     void Update()
     {
         bonesText.text = currentBones.ToString();
-        livesText.text = currentLives.ToString();
-        if(currentLives <= 0)
+        if(currentBones <= 0)
         {
             Lose();
         }
@@ -36,11 +35,12 @@ public class Player : MonoBehaviour
 
     public void TakeDamage(int dmg)
     {
-        currentLives -= dmg;
+        currentBones -= dmg;
     }
 
     void Lose()
     {
         Debug.Log("You lose");
+        SceneManager.LoadScene(5);
     }
 }

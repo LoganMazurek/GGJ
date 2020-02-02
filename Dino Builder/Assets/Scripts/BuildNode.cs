@@ -6,11 +6,16 @@ public class BuildNode : MonoBehaviour
     public Color hoverColor;
     private Color startColor;
     public Vector3 positionOffset;
+    BuildManager buildManager;
 
     private GameObject turret;
    
     private void OnMouseDown()
     {
+        if(buildManager.GetTurretToBuild() == null)
+        {
+            return;
+        }
         if(turret != null)
         {
             Debug.Log("Can't build there");//TODO: display to screen
@@ -24,10 +29,13 @@ public class BuildNode : MonoBehaviour
     {
         rend = GetComponent<Renderer>();
         startColor = rend.material.color;
+        buildManager = BuildManager.instance;
     }
 
     private void OnMouseEnter()
     {
+        if (buildManager.GetTurretToBuild() == null)
+            return;
         rend.material.color = hoverColor;
     }
 
