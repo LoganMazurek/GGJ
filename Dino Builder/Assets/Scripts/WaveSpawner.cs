@@ -13,6 +13,7 @@ public class WaveSpawner : MonoBehaviour
         public int numEnemies;
         public int spawnPoint;
     };
+    public static WaveSpawner instance;
     public Transform enemyPrefabPtero; //0
     public Transform enemyPrefabTRex;  //1
     public Transform enemyPrefabSkel;  //2
@@ -32,7 +33,7 @@ public class WaveSpawner : MonoBehaviour
 
     private float countdown = 2f;
 
-    private int waveIndex = 0;
+    public int waveIndex = 0;
     private void Start()
     {
         enemies = new Transform[5];
@@ -44,6 +45,7 @@ public class WaveSpawner : MonoBehaviour
         spawns = new Transform[2];
         spawns[0] = spawnPoint1;
         spawns[1] = spawnPoint2;
+        instance = this;
     }
     private void Update()
     {

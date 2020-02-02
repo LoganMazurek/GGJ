@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 
 public class BuildManager : MonoBehaviour
 {
@@ -10,6 +11,9 @@ public class BuildManager : MonoBehaviour
     public int spearCost;
     public int catapultCost;
     public int ballistaCost;
+    public Text catapultCostText;
+    public Text spearCostText;
+    public Text ballistaCostText;
 
     public void PurchaseSpearTurret()
     {
@@ -48,6 +52,9 @@ public class BuildManager : MonoBehaviour
     }
     private void Awake()
     {
+        spearCostText.text = spearCost.ToString();
+        catapultCostText.text = catapultCost.ToString();
+        ballistaCostText.text = ballistaCost.ToString();
         if(instance != null)
         {
             Debug.LogError("More than 1 buildManager you dummy");

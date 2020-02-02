@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class BuildNode : MonoBehaviour
 {
@@ -22,7 +23,7 @@ public class BuildNode : MonoBehaviour
             return;
         }
 
-        GameObject turretToBuild = BuildManager.instance.GetTurretToBuild();
+        GameObject turretToBuild = buildManager.GetTurretToBuild();
         turret = (GameObject)Instantiate(turretToBuild, transform.position + positionOffset, transform.rotation);
     }
     private void Start()
@@ -34,6 +35,8 @@ public class BuildNode : MonoBehaviour
 
     private void OnMouseEnter()
     {
+        if (EventSystem.current.IsPointerOverGameObject())
+            return;
         if (buildManager.GetTurretToBuild() == null)
             return;
         rend.material.color = hoverColor;

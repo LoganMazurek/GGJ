@@ -10,7 +10,7 @@ public class Player : MonoBehaviour
     public int currentBones;
     public int startBones;
     public Text bonesText;
-    public Text livesText;
+    public Text roundText;
     // Start is called before the first frame update
     void Start()
     {
@@ -26,6 +26,7 @@ public class Player : MonoBehaviour
         {
             Lose();
         }
+        roundText.text = WaveSpawner.instance.waveIndex.ToString() + " / 100";
     }
 
     public void GetBone(int bone)

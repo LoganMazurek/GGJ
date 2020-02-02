@@ -108,7 +108,7 @@ public class CameraController : MonoBehaviour
 
       //
       // Mouse Zoom
-        camera.fieldOfView -= Input.mouseScrollDelta.y * zoomSpeed;
+       // camera.fieldOfView -= Input.mouseScrollDelta.y * zoomSpeed;
   }
 }
 //public class CameraController : MonoBehaviour
