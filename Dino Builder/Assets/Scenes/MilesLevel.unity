@@ -6858,9 +6858,16 @@ MonoBehaviour:
   - enemyType: 1
     numEnemies: 6
     spawnPoint: 0
+  - enemyType: 3
+    numEnemies: 2
+    spawnPoint: 0
+  - enemyType: 4
+    numEnemies: 1
+    spawnPoint: 0
   ButtonPressed: 0
   timeBetweenWaves: 6
   timeBetweenEnemies: 0.3
+  sceneName: 
   waveIndex: 0
 --- !u!4 &1253230927
 Transform:

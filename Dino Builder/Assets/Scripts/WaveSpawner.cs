@@ -60,26 +60,25 @@ public class WaveSpawner : MonoBehaviour
         }
         if(ButtonPressed && !spawning)
         {
-            StartCoroutine(SpawnWave());
+            StartCoroutine(SpawnWave(waveIndex));
             ButtonPressed = false;
         }
     }
 
-    IEnumerator SpawnWave()
+    IEnumerator SpawnWave(int index)
     {
         waveIndex++;
-        for (int i = 0; i < waves.Length; i++)
-        {
-            for (int j = 0; j < waves[i].numEnemies; j++)
+        
+            for (int j = 0; j < waves[index].numEnemies; j++)
             {
                 spawning = true;
                 if (spawning)
                 {
-                    SpawnEnemy(enemies[waves[i].enemyType], spawns[waves[i].spawnPoint]);
+                    SpawnEnemy(enemies[waves[index].enemyType], spawns[waves[index].spawnPoint]);
                     yield return new WaitForSeconds(timeBetweenEnemies);
                 }
             }
-        }
+        
         spawning = false;
        //Debug.Log("Wave Inbound!");
     }
