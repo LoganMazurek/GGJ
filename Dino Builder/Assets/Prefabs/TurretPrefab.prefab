@@ -191,7 +191,7 @@ MonoBehaviour:
   bulletPrefab: {fileID: 2647976959624595557, guid: 55c63346d58c4034cbf661f6ccb99dd7,
     type: 3}
   attackSpeed: 1
-  range: 20
+  range: 50
   turnSpeed: 8
   enemyTag: Enemy
   firePoint: {fileID: 1106233436494350276}

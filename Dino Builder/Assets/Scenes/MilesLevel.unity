@@ -6690,7 +6690,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5946871e3f6e71c429b580c449b1585c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  standardTurretPrefab: {fileID: 0}
+  standardTurretPrefab: {fileID: 1106233436923866634, guid: e7e6c0fcf8f458f42b4510fb1e865cef,
+    type: 3}
 --- !u!114 &1253230929
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6705,10 +6706,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentBones: 0
   startBones: 0
-  currentLives: 0
-  maxLives: 0
-  bonesText: {fileID: 0}
-  livesText: {fileID: 0}
+  currentLives: 25
+  maxLives: 25
+  bonesText: {fileID: 555956622}
+  livesText: {fileID: 23371755}
 --- !u!1001 &1315749693
 PrefabInstance:
   m_ObjectHideFlags: 0
