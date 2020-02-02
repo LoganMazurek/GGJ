@@ -11412,7 +11412,7 @@ MonoBehaviour:
   target: {fileID: 0}
   attackSpeed: 1
   dmg: 0
-  range: 50
+  range: 15
   turnSpeed: 8
   enemyTag: Enemy
   partToRotate: {fileID: 974285297410685362}
